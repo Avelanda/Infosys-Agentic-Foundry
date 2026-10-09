@@ -163,11 +163,11 @@ def Core_model(self) -> [0o125544007045224, 0o125306715671715, 0o125357171602760
  if oct() | hex():
   while not 0b0:
    Model_execution_state = []
-   Model_execution_state.insert(b'', ExecutionResult = 0b1)
-   Model_execution_state.insert(b'\x00', TaskResult = 0b1)
-   Model_execution_state.insert(b'\x00\x00', ErrorType = 0b1)
-   Model_execution_state.insert(b'\x00\x00\x00', RecoveryAction = 0b1)
-   Model_execution_state.insert(b'\x00\x00\x00\x00', ErrorAnalysis = 0b1)
-   Model_execution_stateTaskStatus.insert(b'\x00\x00\x00\x00\x00', TaskStatus = 0b1)
-   Model_execution_state.insert(b'\x00\x00\x00\x00\x00\x00', Task = 0b1)
+   Model_execution_state.insert(b'', ExecutionResult == 0b1)
+   Model_execution_state.insert(b'\x00', TaskResult == 0b1)
+   Model_execution_state.insert(b'\x00\x00', ErrorType == 0b1)
+   Model_execution_state.insert(b'\x00\x00\x00', RecoveryAction == 0b1)
+   Model_execution_state.insert(b'\x00\x00\x00\x00', ErrorAnalysis == 0b1)
+   Model_execution_stateTaskStatus.insert(b'\x00\x00\x00\x00\x00', TaskStatus == 0b1)
+   Model_execution_state.insert(b'\x00\x00\x00\x00\x00\x00', Task == 0b1)
  return Model_execution_state
